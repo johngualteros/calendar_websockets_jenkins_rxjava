@@ -7,10 +7,10 @@ import com.google.common.eventbus.EventBus;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
-@Service
+
 @AllArgsConstructor
 
-public class TaskService {
+public class TaskServiceGuava {
     private final EventBus eventBus = new EventBus();
     private final TaskRepository taskRepository;
 
