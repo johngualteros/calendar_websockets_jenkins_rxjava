@@ -10,6 +10,5 @@ pipeline {
                           userRemoteConfigs: [[url: 'https://github.com/johngualteros/calendar_websockets.git']]])
             }
         }
-        // ... more stages here ...
     }
 }
